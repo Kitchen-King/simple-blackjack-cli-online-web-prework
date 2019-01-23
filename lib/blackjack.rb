@@ -55,7 +55,7 @@ def runner
   variable > 21
   variable = hit?(variable)
   end
-  display_card_total
+  display_card_total(variable)
   puts "Sorry, you hit #{variable}. Thanks for playing!"
 end
     

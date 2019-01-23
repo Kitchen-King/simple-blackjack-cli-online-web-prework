@@ -52,7 +52,7 @@ def runner
   welcome
   variable = initial_round
   until
-  variarble > 21
+  variable > 21
   variable = hit?(variable)
   end
   display_card_total(variable)
